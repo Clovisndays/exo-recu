@@ -3,15 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Formulaire</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 100px;
+        }
+        a {
+            display: inline-block;
+            padding: 10px 20px;
+            background: red;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        a:hover {
+            background: darkred;
+        }
+    </style>
 </head>
-<body>
-    <h1>Form</h1>
-    <form>
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name">
-        <button type="submit">Submit</button>
-    </form>
 
+
+<body>
+    <h2>Êtes-vous sûr de vouloir vous déconnecter ?</h2>
+    <a href="./logout.php">Se déconnecter</a>
 </body>
 </html>
